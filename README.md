@@ -6,11 +6,13 @@ This is an example application to demonstrate Kubernetes.
 
 While we could adopt a repository per microservice to demonstrate more complex release versioning. As the application is simple we will attempt initially to use a single repository with folders and add complexity later if required.
 
+``` shell
 ../img contains a folder per container image type used primilarily for dockerfiles
 ../src contains a folder per microservice which holds application source files and dockerfiles
 ../tst contains python flask unit and integration test files
 ../docs contains documentation
 ../k8s contains kubernetes manifest files
+```
 
 ## CI/CD Pipeline Workflow Steps
 
