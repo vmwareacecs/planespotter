@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+
+# Install Python runtime environment
+RUN apt-get update && apt-get install -y python python-pip python-virtualenv python-dev systemd nginx net-tools iputils-ping
