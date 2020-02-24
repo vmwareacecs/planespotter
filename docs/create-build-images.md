@@ -1,6 +1,6 @@
-## Creating A Python Flask Build Image
+## Creating Python Flask Build Images
 
-We can first clone the public respository locally to a Development folder on our laptop.
+The build images used for build activities like development and testing. We can first clone the public respository locally to a Development folder on our laptop.
 
 ``` shell
 mkdir ~/Development
@@ -14,10 +14,9 @@ If your not already authenticate with Docker Hub.
 docker login --username xxx --password yyy
 ```
 
-The build image extends the base image with some packages and a Python virtual environment. Build and push the build-flask image to the public Docker Hub repository.
-
 ``` shell
 cd planespotters/img/build-flask
 docker build -t vmwareacecs/build-flask .
 docker push vmwareacecs/build-flask
 ```
+
