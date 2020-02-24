@@ -1,4 +1,4 @@
-# Planespotter
+# Planespotter
 
 This is an example application to demonstrate Kubernetes.
 
